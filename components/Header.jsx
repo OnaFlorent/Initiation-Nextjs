@@ -29,11 +29,11 @@ const Header = () => {
               onMouseLeave={mouseLeaveHandler}
               className="flex flex-col lg:flex-row items-center h-full gap-2 xl:gap-6 w-full justify-between xl:w-auto xl:justify-normal"
             >
-              <div className="flex items-center gap-2 text-white">
+              <div className="flex items-center gap-2 text-white cursor-pointer">
                 <FaPhoneAlt />
                 <span>+3300000000</span>
               </div>
-              <div className="flex items-center gap-2 text-white">
+              <div className="flex items-center gap-2 text-white cursor-pointer">
                 <IoMdMail />
                 <span>info@serene.com</span>
               </div>
@@ -61,7 +61,8 @@ const Header = () => {
               width={120}
               height={44}
               priority
-              alt="logo_serene"
+              alt="serene_logo"
+              className="pointer-events-none"
             />
           </Link>
         </motion.div>
