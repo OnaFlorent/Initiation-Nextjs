@@ -1,5 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import { useContext } from "react";
+import { CursorContext } from "@/components/CursorContext";
 
 const About = () => {
   return (
