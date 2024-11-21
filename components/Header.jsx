@@ -31,11 +31,11 @@ const Header = () => {
             >
               <div className="flex items-center gap-2 text-white cursor-pointer">
                 <FaPhoneAlt />
-                <span>+3300000000</span>
+                <span>+33650869880</span>
               </div>
               <div className="flex items-center gap-2 text-white cursor-pointer">
                 <IoMdMail />
-                <span>info@serene.com</span>
+                <span>florent.belot.dev@gmail.com</span>
               </div>
             </motion.div>
             {/* socials */}

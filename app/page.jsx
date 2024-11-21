@@ -30,7 +30,7 @@ const Home = () => {
               onMouseLeave={mouseLeaveHandler}
               className="h1 mb-6"
             >
-              La beauté naturelle <br /> Commence ici
+              La beauté naturelle <br /> commence à cet instant
             </motion.h1>
             <motion.p
               onMouseEnter={mouseEnterHandler}
