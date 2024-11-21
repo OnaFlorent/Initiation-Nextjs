@@ -33,7 +33,7 @@ const About = () => {
               quality={100}
               priority
               alt="about_img"
-              className="object-contain"
+              className="object-contain pointer-events-none"
             />
           </motion.div>
           {/* text */}
