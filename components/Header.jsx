@@ -29,14 +29,17 @@ const Header = () => {
               onMouseLeave={mouseLeaveHandler}
               className="flex flex-col lg:flex-row items-center h-full gap-2 xl:gap-6 w-full justify-between xl:w-auto xl:justify-normal"
             >
-              <div className="flex items-center gap-2 text-white cursor-pointer">
+              <a
+                className="flex items-center gap-2 text-white cursor-pointer"
+                href="tel:+33650869880"
+              >
                 <FaPhoneAlt />
                 <span>+33650869880</span>
-              </div>
-              <div className="flex items-center gap-2 text-white cursor-pointer">
+              </a>
+              <a className="flex items-center gap-2 text-white cursor-pointer" href="mailto:belot.florent.dev@gmail.com">
                 <IoMdMail />
                 <span>florent.belot.dev@gmail.com</span>
-              </div>
+              </a>
             </motion.div>
             {/* socials */}
             <motion.div
